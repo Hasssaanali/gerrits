@@ -58,25 +58,40 @@ jQuery(document).ready(function($) {
 jQuery(document).ready(function($) {
   $('.slider1').slick({
     dots: true,
+    arrows: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 2000,
-    arrows: true,
     responsive: [{
       breakpoint: 600,
       settings: {
+        arrows: true,
         slidesToShow: 2,
+        arrows: false,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        arrows: true,
+        slidesToShow: 2,
+        arrows: false,
         slidesToScroll: 1
       }
     },
     {
        breakpoint: 490,
        settings: {
-          arrows: false,
+        dots: true,
+        autoplay: true,
+          
+          infinite: false,
           slidesToShow: 1,
+          arrows: true,
           slidesToScroll: 1
        }
     }]
