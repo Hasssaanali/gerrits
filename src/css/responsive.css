@@ -1,0 +1,341 @@
+/* laptop screen */
+
+@media only screen and (max-width: 1550px) {
+    .px-60 {
+        padding: 0px 325px;
+    }
+    .whyc .cont {
+        padding: 0 25px;
+    }
+    .w-1\/3.second {
+        padding-right: 65px;
+    }
+    .multislides .justify-center h2 {
+        font-size: 30px;
+    }
+    .slidingsec .wit {
+        padding-right: 60px;
+    }
+    .multislides .justify-center {
+        height: 410px;
+    }
+    .pt-20 {
+        padding-top: 1rem;
+    }
+    img.pt-28 {
+        padding-top: 10px;
+    }
+    .faqs {
+        padding-left: 115px;
+    }
+    nav a {
+        font-size: 14px !important;
+    }
+    
+    
+
+}
+
+/* mini pad screen */
+@media only screen and (max-width: 1280px) {
+    
+    html{
+        overflow-x: hidden !important;
+    }
+    body{
+        overflow-x: hidden !important;
+    }
+    .px-60 {
+        padding: 0px 275px;
+    }
+    .whyc {
+        padding: 0 70px;
+    }
+    nav a {
+        font-size: 14px !important;
+    }
+    
+    
+
+}
+
+/* tablet screen */
+@media only screen and (max-width: 820px) {
+    .flex-1.flex.justify-center.items-center.justify-logo{
+        justify-content: start !important;
+    }
+    header.letsadd{
+        height: 95px !important;
+    }
+    .px-60 {
+        padding: 0px 20px;
+    }
+    .h-screen {
+        height: 70vh !important;
+    }
+    .w-full.detail.py-36 {
+        flex-wrap: wrap;
+    }
+    .w-1\/2.pt-24.wit {
+        width: 50%;
+        padding-left: 60px;
+        padding-bottom: 30px;
+        padding-top: 0px !important;
+    }
+    .w-1\/2.wit img {
+        width: 80%;
+        padding-left: 50px;
+    }
+    .w-full.pb-16.flex.justify-center.plants {
+        flex-wrap: wrap;
+        justify-content: start !important;
+    }
+    .plants .w-1\/3 {
+        width: 48.333333%;
+        padding-top: 20px;
+    }
+    .w-full.slidingsec.py-36 {
+        flex-wrap: wrap;
+    }
+    .slidingsec .w-1\/2.wit {
+        width: 100%;
+    }
+    .w-full.multislides {
+        width: 95% !important;
+        padding-top: 60px;
+    }
+    .whyc {
+        padding: 0 70px;
+        flex-wrap: wrap;
+        justify-content: start !important;
+    }
+    .w-1\/3.cont {
+        width: 50%;
+        padding-top: 40px;
+    }
+    .why {
+        margin: 50px 0;
+    }
+    .w-1\/2.wit img {
+        width: 100%;
+        padding-left: 10px;
+    }
+    .w-1\/2.pt-24.wit {
+        width: 50%;
+        padding-left: 10px;
+        padding-bottom: 30px;
+        padding-top: 0px !important;
+    }
+    .res {
+        height: 460px;
+    }
+    .myfaqs.gallery{
+        display: block;
+        padding-left: 0;
+    }
+    .myfaqs .w-1\/2{
+        width: 100%;
+    }
+    .faqs {
+        padding-left: 135px;
+    }
+    .accordion{
+        margin-bottom: 20px;
+    }
+    .footer .w-1\/3 {
+        width: 100%;
+        margin-bottom: 50px;
+
+    }
+    .footer .whyc {
+        padding: 0 70px;
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+    div#navigation {
+        background: #71822C;
+        width: 100%;
+        position: absolute;
+        top: 75px;
+        left: 0;
+        z-index: 1;
+    }
+    button.text-white.inline-flex.p-3.hover\:bg-gray-900.rounded.lg\:hidden.ml-auto.hover\:text-white.outline-none.nav-toggler {
+        padding: 0;
+        background: transparent;
+    }
+    nav a{
+        color: #fff !important;
+        font-family: 'Inter' !important;
+    }
+    .mylogo {
+        margin-bottom: -20px;
+    }
+    header.letsadd {
+        height: 95px !important;
+    }
+    header {
+        width: 100%;
+        height: 95px;
+    }
+    div#navigation {
+        background: #71822C;
+        width: 100%;
+        position: absolute;
+        top: 95px;
+        left: 0;
+        z-index: 1;
+    }
+    .letsadd .justify-logo {
+        transition: all .5s ease-in-out;
+        transform: translateX(-5%) !important;
+    }
+    
+}
+
+/* mobile screen */
+@media only screen and (max-width: 480px) {
+    .letsadd .justify-logo {
+        transition: all .5s ease-in-out;
+        transform: translateX(-5%) !important;
+    }
+    .slider1 h1 {
+        font-size: 22.1772px;
+        line-height: 30px;
+    }
+    .slides.justify-center p {
+        font-size: 14px;
+        line-height: 130.02%;
+        margin-top: 20px;
+    }
+    .w-full.detail.py-36 {
+        width: 710px;
+        padding-top: 100px;
+    }
+    .detail h2 {
+        font-size: 27.1772px;
+        line-height: 32px;
+    }
+    .plants .w-1\/3 {
+        width: 100%;
+        padding-top: 20px;
+    }
+    .plants .justify-center img {
+        width: 125px;
+        height: 125px;
+    }
+    .w-full.slidingsec.py-36 {
+        display: flex;
+        margin: auto;
+        padding-top: 35px;
+    }
+    .slidingsec {
+        padding-left: 25px;
+    }
+    .slidingsec h2 {
+        font-size: 25.1772px;
+        line-height: 32px;
+    }
+    .detail p {
+        font-size: 14px;
+        line-height: 25px !important;
+    }
+    .slidingsec p {
+        font-size: 14px;
+        line-height: 25px !important;
+    }
+    .whyc {
+        padding: 0 15px;
+        flex-wrap: wrap;
+        justify-content: start !important;
+    }
+    .w-1\/3.cont {
+        width: 100%;
+        padding-top: 40px;
+    }
+    .gallery {
+        flex-wrap: wrap;
+    }
+    .gallery .w-1\/2.wit {
+        width: 100%;
+        padding-left: 0px;
+        padding-bottom: 30px;
+        padding-top: 20px !important;
+    }
+    .pr-50 {
+        padding-right: 10px;
+    }
+    .w-1\/2.wit img {
+        width: 100%;
+        padding-left: 0px;
+    }
+    .pb-24 {
+        padding-bottom: 3rem;
+    }
+    .myaccord {
+        width: 100%;
+    }
+    .myfaqs label {
+        font-size: 15px;
+    }
+    .faqs {
+        padding-left: 20px;
+    }
+    form {
+        display: inline-grid;
+        width: 100%;
+        padding-left: 20px !important;
+        padding-top: 0 !important;
+    }
+    .contact{
+        padding-left: 20px;
+    }
+    .footer .whyc {
+        padding: 0 20px;
+    }
+    .w-1\/3.second {
+        padding-right: 20px;
+    }
+    .whyc p {
+        font-size: 14px;
+        line-height: 25px !important;
+    }
+    footer i {
+        font-size: 20px !important;
+    }
+    header {
+        width: 100%;
+        height: 70px;
+    }
+    img.mylogo {
+        width: 70%;
+        position: relative;
+        z-index: 2;
+    }
+    .myheader{
+        padding-top: 0 !important;
+    }
+    div#navigation {
+        background: #71822C;
+        width: 100%;
+        position: absolute;
+        top: 75px;
+        left: 0;
+        z-index: 1;
+    }
+    button.text-white.inline-flex.p-3.hover\:bg-gray-900.rounded.lg\:hidden.ml-auto.hover\:text-white.outline-none.nav-toggler {
+        padding: 0;
+        background: transparent;
+    }
+    nav a{
+        color: #fff !important;
+        font-family: 'Inter' !important;
+    }
+    .mylogo {
+        margin-bottom: -20px;
+    }
+    header.letsadd {
+        height: 70px !important;
+    }
+
+}

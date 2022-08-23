@@ -1,0 +1,12 @@
+
+
+/* navigation 
+ - show navigation always on the large screen devices with (min-width:1024)
+*/
+
+@media (min-width: 1024px) {
+  .top-navbar {
+    display: inline-flex !important;
+  }
+}
+
