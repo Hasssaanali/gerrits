@@ -210,6 +210,43 @@
         position: relative;
         top: -25px;
     }
+    .slidingsec {
+        padding-left: 15px;
+    }
+    .slider {
+        max-width: 100% !important;
+        width: 100% !important;
+        height: 70vh;
+        margin: 0 auto;
+        position: relative;
+        overflow: hidden;
+    }
+    .px-60 {
+        padding: 0px 6px;
+    }
+    #next {
+        border-radius: 0px 0 0 0px;
+        background: #000;
+        height: 55px;
+        width: 55px;
+        padding-top: 5px;
+        position: absolute;
+        top: 97%;
+        right: 0;
+        z-index: 99;
+    }
+    #prev {
+        border-radius: 0px 0 0 0px;
+        background: #fff;
+        color: #000;
+        height: 55px;
+        width: 55px;
+        padding-top: 8px;
+        position: absolute;
+        top: 97%;
+        z-index: 99;
+        left: 0;
+    }
 }
 
 /* mobile screen */
@@ -253,8 +290,9 @@
         padding-top: 35px;
     }
     .slidingsec {
-        padding-left: 25px;
-    }
+        padding-left: 5px;
+        padding-right: 5px;
+    }    
     .slidingsec h2 {
         font-size: 25.1772px;
         line-height: 32px;
@@ -373,6 +411,43 @@
     }
     button.slick-next.slick-arrow {
         display: none !important;
+    }
+    .slider {
+        max-width: 100% !important;
+        width: 100% !important;
+        height: 70vh;
+        margin: 0 auto;
+        position: relative;
+        overflow: hidden;
+    }
+    .px-60 {
+        padding: 0px 6px;
+    }
+    #next {
+        border-radius: 0px 0 0 0px;
+        background: #000;
+        height: 55px;
+        width: 55px;
+        padding-top: 5px;
+        position: absolute;
+        top: 95%;
+        right: 0;
+        z-index: 99;
+    }
+    #prev {
+        border-radius: 0px 0 0 0px;
+        background: #fff;
+        color: #000;
+        height: 55px;
+        width: 55px;
+        padding-top: 8px;
+        position: absolute;
+        top: 95%;
+        z-index: 99;
+        left: 0;
+    }
+    .multislides .justify-center{
+        margin: 0 !important;
     }
 
 }
