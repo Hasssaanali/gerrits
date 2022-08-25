@@ -37,7 +37,7 @@ header {
 }
 
 .mynavwidth {
-    width: 33%;
+    width: 33% !important;
 }
 
 @keyframes showNav {
