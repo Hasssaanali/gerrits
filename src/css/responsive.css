@@ -2,7 +2,7 @@
 
 @media only screen and (max-width: 1550px) {
     .px-60 {
-        padding: 0px 325px;
+        padding: 0px 325px !important;
     }
     .whyc .cont {
         padding: 0 25px;
@@ -54,7 +54,7 @@
         overflow-x: hidden !important;
     }
     .px-60 {
-        padding: 0px 275px;
+        padding: 0px 275px !important;
     }
     .whyc {
         padding: 0 70px;
@@ -76,10 +76,10 @@
         height: 95px !important;
     }
     .px-60 {
-        padding: 0px 20px;
+        padding: 0px 20px !important;
     }
     .h-screen {
-        height: 70vh !important;
+        height: 75vh !important;
     }
     .w-full.detail.py-36 {
         flex-wrap: wrap;
@@ -216,13 +216,13 @@
     .slider {
         max-width: 100% !important;
         width: 100% !important;
-        height: 70vh;
+        height: 75vh !important;
         margin: 0 auto;
         position: relative;
         overflow: hidden;
     }
     .px-60 {
-        padding: 0px 6px;
+        padding: 0px 6px !important;
     }
     #next {
         border-radius: 0px 0 0 0px;
